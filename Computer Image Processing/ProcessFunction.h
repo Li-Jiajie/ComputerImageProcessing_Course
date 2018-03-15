@@ -6,3 +6,4 @@
 using namespace cv;
 
 Mat SourceImage;
+Mat GlobalResult;

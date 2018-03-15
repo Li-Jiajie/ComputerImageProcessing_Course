@@ -76,23 +76,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -122,10 +122,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalDependencies>opencv_world341.lib;opencv_world341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_world341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -172,12 +173,13 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>opencv_world341.lib;opencv_world341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_world341.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
