@@ -76,22 +76,22 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\OpenCV\include\opencv;..\OpenCV\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\OpenCV\include\opencv;..\OpenCV\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\OpenCV\include\opencv;..\OpenCV\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\OpenCV\include\opencv;..\OpenCV\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -193,6 +193,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CDialog_1.h" />
     <ClInclude Include="Computer Image Processing.h" />
     <ClInclude Include="Computer Image ProcessingDlg.h" />
     <ClInclude Include="ProcessFunction.h" />
@@ -201,6 +202,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CDialog_1.cpp" />
     <ClCompile Include="Computer Image Processing.cpp" />
     <ClCompile Include="Computer Image ProcessingDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
