@@ -76,23 +76,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include;E:\Code\C++\ComputerImageProcessing_Course\OpenCV\include\opencv;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Code\C++\ComputerImageProcessing_Course\OpenCV\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include\opencv;C:\Users\Li\Documents\学习\Code\计算机图像处理\Computer Image Processing\OpenCV\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenCV\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
