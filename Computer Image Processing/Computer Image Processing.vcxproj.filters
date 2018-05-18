@@ -36,6 +36,9 @@
     <ClInclude Include="CDialog_1.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HuffmanInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Computer Image Processing.cpp">
@@ -48,6 +51,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CDialog_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanInfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

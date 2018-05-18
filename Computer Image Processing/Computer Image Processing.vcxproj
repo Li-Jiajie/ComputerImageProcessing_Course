@@ -196,6 +196,7 @@
     <ClInclude Include="CDialog_1.h" />
     <ClInclude Include="Computer Image Processing.h" />
     <ClInclude Include="Computer Image ProcessingDlg.h" />
+    <ClInclude Include="HuffmanInfo.h" />
     <ClInclude Include="ProcessFunction.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -205,6 +206,7 @@
     <ClCompile Include="CDialog_1.cpp" />
     <ClCompile Include="Computer Image Processing.cpp" />
     <ClCompile Include="Computer Image ProcessingDlg.cpp" />
+    <ClCompile Include="HuffmanInfo.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
