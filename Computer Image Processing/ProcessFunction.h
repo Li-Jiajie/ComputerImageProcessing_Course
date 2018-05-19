@@ -156,4 +156,3 @@ void Dilation(Mat Source, Mat &Result, Mat &Kernel, Point &Origin)
 	}
 	delete[] KernelMap;
 }
-
